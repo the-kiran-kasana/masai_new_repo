@@ -1,4 +1,4 @@
-vfunction solve(mat) {
+function solve(mat) {
     const n = mat.length;
     console.log(mat, "actual matrix")
     // Step 1: Transpose
