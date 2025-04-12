@@ -14,7 +14,7 @@ function solve(mat) {
       
       [mat[i][j], mat[j][i]] = [mat[j][i], mat[i][j]];
       
-      you need to change or use another way to swap the values instead of above method
+      //you need to change or use another way to swap the values instead of above method
       //   [mat[i][j], mat[j][i]] = [mat[j][i], mat[i][j]];
       // console.log( "after the swap i of j with j of i will become this=>", mat[i][j])
       // console.log("after the swap j of i this will become this=> ", mat[j][i])
@@ -25,7 +25,7 @@ function solve(mat) {
     // Step 2: Reverse each row
     for (let i = 0; i < n; i++) {
       mat[i].reverse();
-      you need to use brute force mathod for reverse the value
+      //you need to use brute force mathod for reverse the value
     }
   }
   
