@@ -20,4 +20,5 @@ function studentScore(score)
 
 let score = [10,20,30,40,50,60,70,30,90,30]
 let passedStd = studentScore(score)
+// console.log(passedStd)
 console.log(passedStd)
